@@ -10,7 +10,7 @@
 vendor/
 
 # Generated outputs (rebuild from source)
-docs/
+# docs/ is tracked because GitHub Pages can publish from main/docs.
 .preview/
 reports/
 

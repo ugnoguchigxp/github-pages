@@ -16,6 +16,8 @@
     <meta name="twitter:image:alt" content="{{ page.twitter_image_alt | default: page.description | default: site.description }}">
     <meta property="og:image:alt" content="{{ page.og_image_alt | default: page.description | default: site.description }}">
     <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
     <link rel="alternate" hreflang="{{ page.lang | default: site.lang | default: 'ja' }}" href="{{ page.url | absolute_url }}">
     <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}">

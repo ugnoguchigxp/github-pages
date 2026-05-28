@@ -3,9 +3,9 @@ layout: null
 permalink: /site.webmanifest
 ---
 {
-  "name": "memoryRouter",
-  "short_name": "memoryRouter",
-  "description": "Evidence-backed adaptive knowledge compiler for coding agents.",
+  "name": "{{ site.title }}",
+  "short_name": "{{ site.title }}",
+  "description": "{{ site.description }}",
   "lang": "{{ site.lang | default: 'ja' }}",
   "start_url": "{{ '/' | relative_url }}",
   "scope": "{{ '/' | relative_url }}",

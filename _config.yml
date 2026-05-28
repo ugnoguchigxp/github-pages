@@ -1,8 +1,8 @@
-title: memoryRouter
-description: Evidence-backed adaptive knowledge compiler for coding agents.
+title: GitHub Pages LP Template
+description: Reusable GitHub Pages + Jekyll landing page template.
 lang: ja
 url: "https://ugnoguchigxp.github.io"
-baseurl: "/memoryRouter"
+baseurl: "/github-pages"
 
 source: site
 destination: docs
@@ -19,6 +19,9 @@ defaults:
       path: ""
     values:
       layout: default
+
+include:
+  - .nojekyll
 
 exclude:
   - Gemfile
