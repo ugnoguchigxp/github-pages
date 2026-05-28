@@ -1,0 +1,21 @@
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Ruby / Jekyll build cache
+.bundle/
+.jekyll-cache/
+.sass-cache/
+vendor/
+
+# Generated outputs (rebuild from source)
+docs/
+.preview/
+reports/
+
+# Node temp files
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
